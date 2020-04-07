@@ -1,7 +1,6 @@
 # Using XCTest For UnitTest Instead Of Quick/Nimble
 
 * Status: accepted
-* Owner of decision: Behlül Kuşaslan
 * Deciders: iOS Team
 * Date: 2020-01-01
 
