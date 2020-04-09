@@ -2,18 +2,17 @@
 
 * Status: accepted
 * Deciders: iOS Team
-* Date: 2020-01-01
-
-Technical Story: [description | jira URL] <!-- optional -->
+* Date: 2020-04-07
 
 ## Context
 
-What is the issue that we're seeing that is motivating this decision or change?
+Our problem was that using third party library for unittest instead of XCTest. And our unittests were most likely behavioural, we also wanted to change this approach and write unittest directly
 
 ## Decision
 
-What is the change that we're proposing and/or doing?
+Every new unittest will be written with XCTest instead of Quick/Nimble
 
 ## Consequences
 
-What becomes easier or more difficult to do because of this change?
+  * Writing unittest for each method instead of a behavioural test is much more convenient & easier
+  * Converting Quick/Nimble unittests to XCTest will be a challange
