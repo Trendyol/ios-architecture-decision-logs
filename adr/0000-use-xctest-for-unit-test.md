@@ -1,4 +1,4 @@
-# Using XCTest For UnitTest Instead Of Quick/Nimble
+# Using XCTest for unit test instead of Quick/Nimble
 
 * Status: accepted
 * Deciders: iOS Team
@@ -14,5 +14,5 @@ Every new unittest will be written with XCTest instead of Quick/Nimble
 
 ## Consequences
 
-  * Writing unittest for each method instead of a behavioural test is much more convenient & easier
-  * Converting Quick/Nimble unittests to XCTest will be a challange
+  * Writing unit test for each method instead of a behavioural test is much more convenient & easier
+  * Converting Quick/Nimble unit tests to XCTest will be a challange
