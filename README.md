@@ -6,6 +6,9 @@ This log lists the architectural decisions for Trendyol iOS Project.
 
 - [ADR-0000](adr/0000-use-xctest-for-unit-test.md) - Using XCTest for unit test instead of Quick/Nimble
 - [ADR-0001](adr/0001-every-view-which-has-logic-inside-should(must)-have-presenter.md) - Every view which has logic inside should(must) have presenter
+- [ADR-0002](adr/0002-use-view-model-on-necessary-place.md) - If it is necessary to manipulate the DTO models that the UI will use, the ViewModel class needs to be created
+- [ADR-0003](adr/0003-dont-use-chain-delegate.md) - Don't Use Chain Delegate
+
 
 <!-- adrlogstop -->
 
