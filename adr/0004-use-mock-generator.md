@@ -4,8 +4,6 @@
 * Deciders: iOS Team
 * Date: 2020-07-21
 
-Technical Story: [Usage of example in a PR](https://stash.trendyol.com/projects/TM/repos/ios/pull-requests/3259/overview)
-
 ## Context
 
 Since we started to use `XCTest` framework to write unit tests, we faced a problem that is we need to write a lot of mocks manually. However using a mock is almost always a must for every unit test, we were spending too much time to create them. We need either a framework/library or something like an Xcode plugin to create them for us automatically.

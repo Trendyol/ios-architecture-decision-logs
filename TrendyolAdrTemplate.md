@@ -4,7 +4,7 @@
 * Deciders: [list everyone involved in the decision] <!-- optional -->
 * Date: [YYYY-MM-DD when the decision was last updated] <!-- optional -->
 
-Technical Story: [description | jira URL] <!-- optional -->
+Technical Story: [description] <!-- optional -->
 
 ## Context
 
