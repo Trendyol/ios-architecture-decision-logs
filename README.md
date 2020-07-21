@@ -8,6 +8,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0001](adr/0001-every-view-which-has-logic-inside-should(must)-have-presenter.md) - Every view which has logic inside should(must) have presenter
 - [ADR-0002](adr/0002-use-view-model-on-necessary-place.md) - If it is necessary to manipulate the DTO models that the UI will use, the ViewModel class needs to be created
 - [ADR-0003](adr/0003-dont-use-chain-delegate.md) - Don't Use Chain Delegate
+- [ADR-0004](adr/0004-use-mock-generator.md) - Use Mock Generator
 
 
 <!-- adrlogstop -->
