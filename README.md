@@ -10,6 +10,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0003](adr/0003-dont-use-chain-delegate.md) - Don't Use Chain Delegate
 - [ADR-0004](adr/0004-use-mock-generator.md) - Use Mock Generator
 - [ADR-0005](adr/0005-inject-ab-config-global-values-toPresenter.md) - Inject AB, Config, Global values to presenters
+- [ADR-0006](adr/0006-inject-parameters-asArguments-toPresenter.md) - Inject parameters as arguments to presenters
 
 <!-- adrlogstop -->
 
