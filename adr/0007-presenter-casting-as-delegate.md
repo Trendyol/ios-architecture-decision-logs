@@ -10,7 +10,7 @@ We faced a problem that different implementations of presenter's conforming dele
 
 ## Decision
 
-We decided to add `xxxxDelegate { get }` to `xxPresenterInterface` and passing this `presenter`  to any delegate like:  `(delegate: presenter.xxxxDelegate)` instead of  `(delegate: presenter as? xxxDelegate)` or `(delegate: presenter as! xxxDelegate)`
+We decided to add `var xxxxDelegate { get }` to `xxPresenterInterface` and passing this `presenter`  to any delegate like:  `(delegate: presenter.xxxxDelegate)` instead of  `(delegate: presenter as? xxxDelegate)` or `(delegate: presenter as! xxxDelegate)`
 
 ## Consequences
 
