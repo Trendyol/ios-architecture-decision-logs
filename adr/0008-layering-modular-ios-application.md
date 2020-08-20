@@ -2,7 +2,7 @@
 
 * Status: accepted
 * Deciders: iOS Team
-* Date: 2020-08-
+* Date: 2020-08-18
 
 ## Context
 
