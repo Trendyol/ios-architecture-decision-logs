@@ -13,6 +13,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0006](adr/0006-inject-parameters-asArguments-toPresenter.md) - Inject parameters as arguments to presenters
 - [ADR-0007](adr/0007-presenter-casting-as-delegate.md) - Define any delegate on presenter interface to pass
 - [ADR-0008](adr/0008-layering-modular-ios-application.md) - Layering Modular iOS Application
+- [ADR-0009](adr/0009-layering-modular-ios-application-approach.md) - Layering Modular iOS Application Approach
 
 <!-- adrlogstop -->
 
