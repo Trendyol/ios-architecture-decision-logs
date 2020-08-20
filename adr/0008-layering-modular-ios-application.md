@@ -13,7 +13,7 @@ We decided splitting it into individual feature modules. This is similar to the 
 
 ## Consequences
 
-We seperate features besides their responsibilities. We creates a two type of frameworks: 
+We seperate features with their responsibilities. We creates a two type of frameworks: 
 1. Kit
 2. Module
 
