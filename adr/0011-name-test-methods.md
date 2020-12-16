@@ -10,7 +10,7 @@ Name the test methods in a convenient form decided by the team.
 
 ## Decision
 
-Methods should be named in such a way:  `<test_methodToTest_Condition_Result>` 
+Methods should be named in such a way:  `test_methodToTest_Condition_Result` 
 
 ## Consequences
 
