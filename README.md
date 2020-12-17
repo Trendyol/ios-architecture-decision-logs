@@ -14,6 +14,8 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0007](adr/0007-presenter-casting-as-delegate.md) - Define any delegate on presenter interface to pass
 - [ADR-0008](adr/0008-layering-modular-ios-application.md) - Layering Modular iOS Application
 - [ADR-0009](adr/0009-layering-modular-ios-application-approach.md) - Layering Modular iOS Application Approach
+- [ADR-0010](adr/0010-use-localizable-kit-for-localization.md) - Using Localizable Kit for Localization
+- [ADR-0011](adr/0011-name-test-methods.md) - Naming Test Methods
 
 <!-- adrlogstop -->
 
