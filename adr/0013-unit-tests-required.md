@@ -4,8 +4,6 @@
 * Deciders: iOS Team
 * Date: 2021-01-04
 
-Technical Story: 
-
 ## Context
 
 Unit testing finds problems early in the development cycle.
