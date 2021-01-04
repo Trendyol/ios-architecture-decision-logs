@@ -16,6 +16,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0009](adr/0009-layering-modular-ios-application-approach.md) - Layering Modular iOS Application Approach
 - [ADR-0010](adr/0010-use-localizable-kit-for-localization.md) - Using Localizable Kit for Localization
 - [ADR-0011](adr/0011-name-test-methods.md) - Naming Test Methods
+- [ADR-0014](adr/0014-use-CoreTracker-for-trackingEvents.md) - Use coreTracker for tracking events
 
 <!-- adrlogstop -->
 
