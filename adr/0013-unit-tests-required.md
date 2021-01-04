@@ -12,7 +12,7 @@ Unit testing finds problems early in the development cycle.
 
 ## Decision
 
-Adding unit tests is required when a change is made to Presenter.
+Adding unit tests is required when a change is made to related Presenter.
 
 ## Consequences
 
