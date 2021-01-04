@@ -17,6 +17,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0010](adr/0010-use-localizable-kit-for-localization.md) - Using Localizable Kit for Localization
 - [ADR-0011](adr/0011-name-test-methods.md) - Naming Test Methods
 - [ADR-0012](adr/0012-use-networkManager-for-network-requests.md) - Use networkManager for network requests
+- [ADR-0013](adr/0013-unit-tests-required.md) - Unit Tests Required
 - [ADR-0014](adr/0014-use-CoreTracker-for-trackingEvents.md) - Use coreTracker for tracking events
 
 <!-- adrlogstop -->
