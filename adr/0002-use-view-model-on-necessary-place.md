@@ -1,6 +1,6 @@
 # If it is necessary to manipulate the DTO models that the UI will use, the ViewModel class needs to be created.
 
-* Status: accepted
+* Status: declined (2020-12-2)
 * Deciders: iOS Team
 * Date: 2020-03-04
 
@@ -10,7 +10,7 @@ Our problem was that if we need to manipulate the response we was doing it on DT
 
 ## Decision
 
-If it is necessary to manipulate the DTO models that the UI will use, the ViewModel class needs to be created.
+~~If it is necessary to manipulate the DTO models that the UI will use, the ViewModel class needs to be created.~~
 
 ## Consequences
 
