@@ -10,7 +10,7 @@ Our team created NetworkManager for network requests. For consistency we should 
 
 ## Decision
 
-Every new interactors must use NetworkManager.
+Every new interactors must use NetworkManager. Also every new endpoints should use new networker approach
 
 ## Consequences
 
