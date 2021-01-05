@@ -10,7 +10,7 @@ We faced a problem that adding new parameters to injecting presenters are gettin
 
 ## Decision
 
-We decided to create `XXArguments` class and inject this properties to this and just passing this arguments class to presenters.
+If we have 3 or more properties, we decided to create `XXArguments` class and inject this properties to this and just passing this arguments class to presenters.
 
 ## Consequences
 
