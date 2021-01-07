@@ -12,6 +12,10 @@ The aim is to cover presenter's private selector's functions and increase unit t
 
 Selector function unit test's should be called inside ```Thread.detachNewThreadSelector``` method.
 
+## Example Usage
+
+```Thread.detachNewThreadSelector(selector, toTarget: presenter as Any, with: nil) ```
+
 ## Consequences
 
 * Unit tests coverage will be increase.
