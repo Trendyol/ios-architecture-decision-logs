@@ -20,6 +20,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0013](adr/0013-unit-tests-required.md) - Unit Tests Required
 - [ADR-0014](adr/0014-use-CoreTracker-for-trackingEvents.md) - Use coreTracker for tracking events
 - [ADR-0015](adr/0015-use-UITestablePageProtocol-for-AccessibilityIdentifiers.md) - Use UITestablePage Interface for setting Accessibility Identifiers
+- [ADR-0016](adr/0016-selector-function-unit-test.md) - Write selector function unit test
 
 <!-- adrlogstop -->
 
