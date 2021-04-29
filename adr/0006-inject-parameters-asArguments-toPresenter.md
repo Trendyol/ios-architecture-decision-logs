@@ -1,4 +1,4 @@
-# Inject Whole External Parameters as Arguments to Presenters
+# Inject All External Parameters as Arguments to Presenters and Routers
 
 * Status: accepted
 * Deciders: iOS Team
@@ -6,12 +6,14 @@
 
 ## Context
 
-We faced a problem that adding new parameters to injecting presenters are getting much more longer for each time for all passing class.
+We faced a problem while injecting new parameters to presenters' initializer. The list of init params are getting much longer.
 
 ## Decision
 
-We decided to create `XXArguments` class and inject this properties to this and just passing this arguments class to presenters.
+Each module has it's own `createModule` or `setupModule` static method in its router. If we have 3 or more properties to be injected to any of these methods, we should create `XYZArguments` structure that contains those properties and pass the argument object to router.
+
+We should also use the same arguments structure to pass to the initializer of the module's presenter.
 
 ## Consequences
 
-Passing an arguments will provides us to minimum code line changings and avoiding pollution of codes for each modules.
+Passing as an argument structure will provide us minimum code line changes and avoid pollution of codebase for each modules.
