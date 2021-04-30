@@ -10,7 +10,8 @@ Localizable files have been defined in different ways to date. Therefore, we may
 
 ## Decision
 
-Localizable files must be defined in the LocalizableKit.
+Localizable files must be defined in the LocalizableKit. 
+If the localizable you define is related to the channel or channel modules, you should use XXLocalizableKit, if related to a Kit, you should use TYCoreUtils.
 
 ## Consequences
 
