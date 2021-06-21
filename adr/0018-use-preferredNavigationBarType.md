@@ -26,6 +26,11 @@ Although you can get inherit, if you want to use other than usage in inheritance
 `none >`hides the native navigation bar
 `notDetermined >` Doesn't mess with meat and milk, it doesn't do anything (we use it to select in child controllers)
 
+usage like:
+
+`override var preferredNavigationBarType: NavigationBarType { .native }`
+
+
 ## Consequences
 
 * Duplicated or dissappearing navigation bars will be fixed on deeplink navigations.
