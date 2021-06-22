@@ -22,7 +22,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0015](adr/0015-use-UITestablePageProtocol-for-AccessibilityIdentifiers.md) - Use UITestablePage Interface for setting Accessibility Identifiers
 - [ADR-0016](adr/0016-selector-function-unit-test.md) - Write selector function unit test
 - [ADR-0017](adr/0017-theme-manager.md) - Theme Manager
-- [ADR-0018](adr/0018-use-preferredNavigationBarType.md) - Use preferred navigation bar type on base
+- [ADR-0018](adr/0018-use-preferredNavigationBarType.md) - Use preferred navigation bar type
 
 <!-- adrlogstop -->
 
