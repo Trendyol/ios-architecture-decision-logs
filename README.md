@@ -24,6 +24,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0017](adr/0017-theme-manager.md) - Theme Manager
 - [ADR-0018](adr/0018-use-preferredNavigationBarType.md) - Use preferred navigation bar type
 - [ADR-0019](adr/0019-naming-branch-name.md) - Naming branch name
+- [ADR-0020](adr/0020-inject-theme-manager-for-common-places.md) - Inject theme manager for common places
 - [ADR-0021](adr/0021-testing-only-one-function.md) - Testing only one function for each test case
 
 <!-- adrlogstop -->
