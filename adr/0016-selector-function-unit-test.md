@@ -10,12 +10,19 @@ The aim is to cover presenter's private selector's functions and increase unit t
 
 ## Decision
 
-Selector function unit test's should be called inside ```Thread.detachNewThreadSelector``` method.
+A new variable should be created with AnyObject type  
+
+The presenter should be set to the new variable 
+
+Selector function should be trigger with perform method which inside the new variable.
 
 ## Example Usage
 
-```Thread.detachNewThreadSelector(selector, toTarget: presenter as Any, with: nil) ```
-
+```swift 
+var selectorPerformObject: AnyObject?
+selectorPerformObject = presenter
+selectorPerformObject?.perform(selector)
+```
 ## Consequences
 
 * Unit tests coverage will be increase.
