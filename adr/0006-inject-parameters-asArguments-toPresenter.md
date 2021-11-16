@@ -19,6 +19,3 @@ We must also inject the same arguments variable to the presenters' initializer a
 ## Consequences
 
 Passing as an argument structure will provide us minimum code line changes and avoid pollution of codebase for each modules.
-
-
-0006-inject-external-parameters-asArguments-toPresenter.md
