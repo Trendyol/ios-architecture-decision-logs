@@ -9,8 +9,8 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0002](adr/0002-use-view-model-on-necessary-place.md) - If it is necessary to manipulate the DTO models that the UI will use, the ViewModel class needs to be created
 - [ADR-0003](adr/0003-dont-use-chain-delegate.md) - Don't Use Chain Delegate
 - [ADR-0004](adr/0004-use-mock-generator.md) - Use Mock Generator
-- [ADR-0005](adr/0005-inject-ab-config-global-values-toPresenter.md) - Inject AB, Config, Global values to presenters
-- [ADR-0006](adr/0006-inject-parameters-asArguments-toPresenter.md) - Inject parameters as arguments to presenters
+- [ADR-0005](adr/0005-inject-ab-config-global-values-toPresenter.md) - Inject AB, Config, Global Values to Presenters
+- [ADR-0006](adr/0006-inject-parameters-asArguments-toPresenter.md) - Inject External Parameters as Arguments to Presenters
 - [ADR-0007](adr/0007-presenter-casting-as-delegate.md) - Define any delegate on presenter interface to pass
 - [ADR-0008](adr/0008-layering-modular-ios-application.md) - Layering Modular iOS Application
 - [ADR-0009](adr/0009-layering-modular-ios-application-approach.md) - Layering Modular iOS Application Approach
