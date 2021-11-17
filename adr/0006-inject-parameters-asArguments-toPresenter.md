@@ -1,4 +1,4 @@
-# Inject All External Parameters as Arguments to Presenters and Routers
+# Inject External Parameters as Arguments to Presenters and Routers
 
 * Status: accepted
 * Deciders: iOS Team
@@ -10,9 +10,11 @@ We faced a problem while injecting new parameters to presenters' initializer. Th
 
 ## Decision
 
-Each module has it's own `createModule` or `setupModule` static method in its router. If we have 3 or more properties to be injected to any of these methods, we should create `XYZArguments` structure that contains those properties and pass the argument object to router.
+Each module has it's own `createModule` or `setupModule` static method in its router. If we have 3 or more properties to be injected to any of these methods, we must create `XYZArguments` structure that contains those properties and pass the argument object to router.
 
-We should also use the same arguments structure to pass to the initializer of the module's presenter.
+We must also inject the same arguments variable to the presenters' initializer and use the variables inside through the arguments object, and not copy each of variables inside arguments to the presenter one by one.
+
+**Note**: Argument object must only include the values to be injected from outer module to initialize the target module (e.g. any kind of `Config/AB flags`, `Managers` and `Helpers` must not be stored inside arguments, and these variables must be injected to the presenters' initializer directly)
 
 ## Consequences
 
