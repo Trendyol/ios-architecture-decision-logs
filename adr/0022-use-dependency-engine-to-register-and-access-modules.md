@@ -10,8 +10,8 @@ We had been struggling with dependencies that break our incremental builds for a
 
 ## Decision
 
-We decided to create a brand new `DependencyEngine` to deal with these dependencies all over the app and decided to *register* and *access* the modules by using DependencyEngine, and not exposing the explicit types through the protocols.
+We decided to create a brand new `DependencyEngine` to deal with these dependencies all over the app and *register* and *access* these modules by using `DependencyEngine`, and not exposing the explicit types through the protocols.
 
 * `DependencyManager` is deprecated, and must not be used in brand new modules anymore. Also, existing usages should be transitioned.
 * `DependencyEngine` must be used to access the modules through the other modules.
-* The `arguments` that we use to initiate a module should be placed in `Interface` target of the module.
+* The `arguments` that we use to initiate a module should be placed in `Interface` target of the module.e
