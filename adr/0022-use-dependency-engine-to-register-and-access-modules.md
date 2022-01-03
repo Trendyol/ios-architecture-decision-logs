@@ -14,4 +14,4 @@ We decided to create a brand new `DependencyEngine` to deal with these dependenc
 
 * `DependencyManager` is deprecated, and must not be used in brand new modules anymore. Also, existing usages should be transitioned.
 * `DependencyEngine` must be used to access the modules through the other modules.
-* The `arguments` that we use to initiate a module should be placed in `Interface` target of the module.e
+* The `arguments` that we use to initiate a module should be placed in `Interface` target of the module.
