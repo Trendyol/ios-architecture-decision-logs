@@ -6,7 +6,7 @@
 
 ## Context
 
-Our common config definitions had uneccasry `EXP_` prefix.
+Our common config definitions had unnecessary `EXP_` prefix.
 
 ## Decision
 
