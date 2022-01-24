@@ -10,7 +10,7 @@ Our common config definitions had uneccasry `EXP_` prefix.
 
 ## Decision
 
-We decided create new comon configs without `EXP_` prefix.
+We decided not to use `EXP_` prefix when we need to create new common configs 
 
 * Do not add `EXP_` prefix when create new config in stage, prepod and prod configuration panels
 * `isLegacyCommonConfig` is deprecated, and must not be used. 
