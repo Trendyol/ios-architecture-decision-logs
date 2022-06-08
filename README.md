@@ -28,7 +28,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0021](adr/0021-testing-only-one-function.md) - Testing only one function for each test case
 - [ADR-0022](adr/0022-use-dependency-engine-to-register-and-access-modules.md) - Use Dependency Engine to Register and Access Modules
 - [ADR-0023](adr/0023-common-config-name-definitions.md) - Common Config Name Definitions
-
+- [ADR-0024](adr/0024-smoke-tests-maintainance-required.md) - Smoke tests maintenance is required for every PR
 <!-- adrlogstop -->
 
 For new ADRs, please use [TrendyolAdrTemplate.md](TrendyolAdrTemplate.md) as basis.
