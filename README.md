@@ -29,6 +29,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0022](adr/0022-use-dependency-engine-to-register-and-access-modules.md) - Use Dependency Engine to Register and Access Modules
 - [ADR-0023](adr/0023-common-config-name-definitions.md) - Common Config Name Definitions
 - [ADR-0024](adr/0024-smoke-tests-maintainance-required.md) - Smoke tests maintenance is required for every PR
+- [ADR-0025](adr/0025-write-unit-tests-with-new-structure.md) - Write unit tests with new structure
 <!-- adrlogstop -->
 
 For new ADRs, please use [TrendyolAdrTemplate.md](TrendyolAdrTemplate.md) as basis.
