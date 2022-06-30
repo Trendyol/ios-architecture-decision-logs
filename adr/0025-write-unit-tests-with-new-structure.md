@@ -13,6 +13,7 @@ With the new unit test structure, we will be able to write more assertions with 
 It is required to use the new structure for newly created test classes.
 Test class must conform to BaseTestCaseInterface. Mock classes must conform to MockAssertable.
 Mocks must be generated like this.
+
     1- Swift Mock Generator -> Generate stub
     2- Swity -> Generate Mock
 
