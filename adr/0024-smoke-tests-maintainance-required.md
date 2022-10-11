@@ -11,6 +11,7 @@ Smoke tests find UI problems and guard UI test architecture early in the develop
 ## Decision
 
 Covering all elements inside the smoke tests is required when new element is added or change is made.
+Adding smoke tests is required when new page is created.
 
 ## Consequences
 
