@@ -10,7 +10,7 @@ With the core tracker structure, we will be able to write key/value event tests 
 
 ## Decision
 
-Even if we type the same value on all keys while checking events, the test can be completed successfully. The important thing is that the count of key/value matches and the values are contained in the sent values. This may cause incorrect key/value tests to be completed successfully.
+During event testing, it's possible to use the same value across all keys, and the test will still pass as long as the count of key/value matches and the values are included in the sent values. However, this approach may result in incorrect key/value tests passing.
 
 ✅ test passed
 ```swift 
@@ -30,7 +30,7 @@ Even if we type the same value on all keys while checking events, the test can b
 )
 ```
 
-After the mockassertable, coretracker started working correctly for us. For this reason, if we do an event test with key/value using coretracker, we can get accurate results. For more accurate test results, we should use coretracker instead of trackableservicetest.
+After implementing the mockassertable framework, the coretracker began to function correctly, allowing us to conduct more accurate event tests using key-value pairs. Thus, we recommend using coretracker instead of trackableservicetest to obtain precise test results.
 
 ## Example Usage
 
