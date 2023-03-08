@@ -38,14 +38,14 @@ After implementing the mockassertable framework, the coretracker began to functi
 ```swift 
 coreTracker.assertInvokes([
     .delphoi([
-        ("event", "storeAdvertImpression"),
-        ("tv023", "searchResult,elbise"),
-        ("tv024", "previousscreentitle"),
-        ("tv027", "elbise"),
-        ("tv073", "widget.marketing"),
-        ("tv076", "widget.marketing"),
-        ("tv139", "fullserviceurl-marketing"),
-        ("tv193", "links-relativePath")
+        ("event", "mockEvent"),
+        ("tv023", "mocktv023"),
+        ("tv024", "mocktv024"),
+        ("tv027", "mocktv027"),
+        ("tv073", "mocktv073"),
+        ("tv076", "mocktv076"),
+        ("tv139", "mocktv139"),
+        ("tv193", "mocktv193")
     ])
 ])
 ```
