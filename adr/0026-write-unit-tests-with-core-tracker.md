@@ -1,8 +1,8 @@
 # Event unit tests
 
- * Status: -
+ * Status: Accepted
  * Deciders: iOS Team
- * Date: 2023-03-07
+ * Date: 2023-03-08
 
  ## Context
 
