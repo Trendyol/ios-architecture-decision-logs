@@ -30,7 +30,7 @@
  )
  ```
 
- After implementing the mockassertable framework, the coretracker began to function correctly, allowing us to conduct more accurate event tests using key-value pairs. Thus, we recommend using coretracker instead of trackableservicetest to obtain precise test results.
+After implementing with MockAssertable protocol, we started to evaluate event related data more efficiently and precisely from mock services under CoreTracker, and allowing us to conduct more accurate event tests using key-value pairs. Thus, we recommend using CoreTracker instead of TrackableServiceTest to obtain precise test results.
 
  ## Example Usage
 
