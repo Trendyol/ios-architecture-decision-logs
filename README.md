@@ -30,6 +30,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0023](adr/0023-common-config-name-definitions.md) - Common Config Name Definitions
 - [ADR-0024](adr/0024-smoke-tests-maintainance-required.md) - Smoke tests maintenance is required for every PR
 - [ADR-0025](adr/0025-write-unit-tests-with-new-structure.md) - Write unit tests with new structure
+- [ADR-0026](adr/0026-write-unit-tests-with-core-tracker.md) - Use only CoreTracker for Event unit tests
 <!-- adrlogstop -->
 
 For new ADRs, please use [TrendyolAdrTemplate.md](TrendyolAdrTemplate.md) as basis.
