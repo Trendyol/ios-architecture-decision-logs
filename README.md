@@ -31,6 +31,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0024](adr/0024-smoke-tests-maintainance-required.md) - Smoke tests maintenance is required for every PR
 - [ADR-0025](adr/0025-write-unit-tests-with-new-structure.md) - Write unit tests with new structure
 - [ADR-0026](adr/0026-write-unit-tests-with-core-tracker.md) - Use only CoreTracker for Event unit tests
+- [ADR-0027](adr/0027-write-snapshot-tests-for-every-view-controller-and-deeplinks.md) - Write Snapshot Tests for every Deeplinks and View Controllers
 <!-- adrlogstop -->
 
 For new ADRs, please use [TrendyolAdrTemplate.md](TrendyolAdrTemplate.md) as basis.
