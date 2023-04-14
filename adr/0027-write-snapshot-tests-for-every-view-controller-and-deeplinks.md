@@ -14,7 +14,7 @@
 
  For every view controller and every deeplinks, we will create a separate snapshot test case.
  If any changes are made to the view controller or the deeplinks, the snapshot test case will be updated accordingly.
- We can define Snapshot Tests name with this ruleset: test_snap_Channel_ViewControllerName_DeeplinkEnum()
+ We can define Snapshot Tests name with this ruleset: test_snap_Channel_Page()
 
 
  ## Consequences
@@ -28,7 +28,7 @@
  ## Example Usage
 
  ```swift 
-    func test_snap_Meal_MLBasketProductProductList_Basket() {
+    func test_snap_Meal_MLBasketProductProductList() {
         setMockScenario(path: "basket", scenario: "test_snap_Meal_MLBasketProductProductList_Basket")
         setupWithDeeplink(deeplink: MLDeeplinks.basket)
         assertSnapshot(matching: prepareScreen(), as: .image)
