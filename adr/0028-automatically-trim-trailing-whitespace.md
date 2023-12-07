@@ -1,4 +1,4 @@
-# New unit test structure
+# Automatically trim trailing whitespace
 
 * Status: accepted
 * Deciders: iOS Team
