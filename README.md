@@ -33,6 +33,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0026](adr/0026-write-unit-tests-with-core-tracker.md) - Use only CoreTracker for Event unit tests
 - [ADR-0027](adr/0027-write-snapshot-tests-for-every-view-controller-and-deeplinks.md) - Write Snapshot Tests for every Deeplinks and View Controllers
 - [ADR-0028](adr/0028-automatically-trim-trailing-whitespace.md) - Automatically trim trailing whitespace with Xcode setting
+- [ADR-0029](adr/0029-teardown-position.md) - Call super.tearDown() at the end of tearDown method 
 <!-- adrlogstop -->
 
 For new ADRs, please use [TrendyolAdrTemplate.md](TrendyolAdrTemplate.md) as basis.
