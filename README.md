@@ -34,6 +34,8 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0027](adr/0027-write-snapshot-tests-for-every-view-controller-and-deeplinks.md) - Write Snapshot Tests for every Deeplinks and View Controllers
 - [ADR-0028](adr/0028-automatically-trim-trailing-whitespace.md) - Automatically trim trailing whitespace with Xcode setting
 - [ADR-0029](adr/0029-tearDown-position.md) - Call super.tearDown() at the end of tearDown method 
+- [ADR-0030](adr/0030-userdefault-propertywrapper.md) - UserDefault PropertyWrapper
+
 <!-- adrlogstop -->
 
 For new ADRs, please use [TrendyolAdrTemplate.md](TrendyolAdrTemplate.md) as basis.
