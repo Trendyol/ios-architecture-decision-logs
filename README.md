@@ -37,6 +37,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0030](adr/0030-userdefault-propertywrapper.md) - UserDefault PropertyWrapper
 - [ADR-0031](adr/0031-ios-code-style-guide.md) - Code Style Guide
 - [ADR-0032](adr/0032-use-ab-culture-configurable.md) - ABCultureConfigurable
+- [ADR-0033](adr/0033-use-lite-mode-config.md) - Lite Mode Config
 
 
 <!-- adrlogstop -->
