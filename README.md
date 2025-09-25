@@ -1,3 +1,5 @@
+
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Trendyol/ios-architecture-decision-logs/badge)](https://scorecard.dev/viewer/?uri=github.com/Trendyol/ios-architecture-decision-logs)
 # Architectural Decision Records (ADR)
 
 This log lists the architectural decisions for Trendyol iOS Project.
