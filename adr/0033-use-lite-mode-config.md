@@ -10,9 +10,10 @@ Currently, we add lite configs to TYConfigs.swift file by creating a new struct 
 - Makes the codebase less organized
 - Makes it harder to analyze lite configs across the project
 - Lite Mode configs are hard to distinguish from other configs
+To simplify configuration management and establish a more sustainable structure, we decided to integrate Lite Mode configurations into the FeatureFlag structure.
 
 ## Decision-1
-We will implement a new property wrapper called @LiteModeFlag to handle lite configs. This will replace the current struct-based implementation.
+The .liteMode case has been added to the FeatureFlagType enum within the existing @FeatureFlag. Thus, Lite Mode configurations should be defined as @FeatureFlag(type: .liteMode).
 
 ### Before
 ```swift
@@ -24,8 +25,8 @@ public struct ProductDetailBasketRecommendationCallEnabled: BoolValueConfigurabl
 
 ### After
 ```swift
-@LiteModeFlag("configVariableName") 
-var configVariableName: Bool?
+@FeatureFlag("configVariableName", type: .liteMode) 
+var configVariableName: Bool
 ```
 
 ## Decision-2
@@ -58,5 +59,5 @@ iOSLiteModeProductDetailBasketRecommendationCallEnabled
 - Team needs to learn new syntax
 
 ## Implementation Notes
-- The @LiteModeFlag property wrapper will handle all the configuration logic internally
+- The @FeatureFlag property wrapper with .litemode type will handle all the configuration logic internally
 - liteconfig-analyzer tool will be able to scan the codebase and identify all lite configs
