@@ -1,6 +1,6 @@
 # Expose Module Functionality Through Interface Targets
 
-* Status:
+* Status: accepted
 * Deciders: iOS Team
 * Date: 17.02.2026
 
