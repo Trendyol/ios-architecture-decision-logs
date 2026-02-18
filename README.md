@@ -39,6 +39,7 @@ This log lists the architectural decisions for Trendyol iOS Project.
 - [ADR-0032](adr/0032-use-ab-culture-configurable.md) - ABCultureConfigurable
 - [ADR-0033](adr/0033-use-lite-mode-config.md) - Lite Mode Config
 - [ADR-0034](adr/0034-do-not-use-html-conversion.md) - Do Not Use HTML Conversion for Attributed Strings
+- [ADR-0035](adr/0035-expose-module-functionality-through-interface-targets.md) - Expose Module Functionality Through Interface Targets
 
 <!-- adrlogstop -->
 
